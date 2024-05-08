@@ -1,0 +1,4 @@
+public interface GenealogicalTreeView {
+
+    void setPeople(List<Person> people);
+}
