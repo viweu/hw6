@@ -1,0 +1,8 @@
+public interface GenealogicalTreeModel {
+
+    List<Person> getPeople();
+
+    void addPerson(Person person);
+
+    void sortBy(Comparator<Person> comparator);
+}
